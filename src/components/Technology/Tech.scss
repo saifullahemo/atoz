@@ -1,0 +1,51 @@
+.tech{
+
+    .frontend{
+        background: url(../../assets/card8.jpg);
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        position: relative;
+
+        .mobiles_card{
+            h3{
+                color: #fff;
+            }
+            .apps_list{
+                display: none ;
+                
+                img{
+                    width: auto;
+                    height: 24px;
+                    padding-right: 1rem;
+                }
+            }
+        
+    }
+    }
+
+    .mobile{
+        background: url(../../assets/card7.jpg);
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        position: relative;
+
+        
+        .mobiles_card{
+            h3{
+                color: #fff;
+            }
+            .apps_list{
+                display: none ;
+                
+                img{
+                    width: auto;
+                    height: 50px;
+                    padding-right: 1rem;
+                }
+            }
+        
+    }
+}
+}

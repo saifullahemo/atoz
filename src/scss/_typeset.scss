@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'Manrope Bold';
+	src: url(../fonts/Manrope-Bold.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Manrope Extra Bold';
+	src: url(../fonts/Manrope-ExtraBold.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Manrope Extra Light';
+	src: url(../fonts/Manrope-ExtraLight.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Manrope Light';
+	src: url(../fonts/Manrope-Light.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Manrope Medium';
+	src: url(../fonts/Manrope-Medium.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Manrope Regular';
+	src: url(../fonts/Manrope-Regular.ttf);
+  }
+  
+  @font-face {
+	font-family: 'Manrope Semi Bold';
+	src: url(../fonts/Manrope-SemiBold.ttf);
+  }
+  
+  body {
+	font-family: 'Manrope Regular';
+	font-size: 22px;
+	line-height: 30px;
+	color: #FFFFFF;
+  }
+  
+  h1, h2, h3, h5, h6 {
+	font-family: 'Manrope Bold';
+	color: #FFFFFF;
+  }
+  
+  h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 90px;
+	line-height: 120px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	h1 {
+	  font-size: 40px;
+	  line-height: 50px;
+	}
+  }
+  
+  h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 74px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	h2 {
+	  font-size: 35px;
+	  line-height: 35px;
+	}
+  }
+  
+  h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 46px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	h3 {
+	  font-size: 28px;
+	  line-height: 31px;
+	}
+  }
+  
+  h4 {
+	font-family: 'Manrope Bold';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	h4 {
+	  font-size: 20px;
+	  line-height: 25px;
+	}
+  }
+  
+  h5 {
+	font-family: 'Manrope Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 32px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	h5 {
+	  font-size: 20px;
+	  line-height: 24px;
+	}
+  }
+  
+  h6 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	h6 {
+	  font-size: 14px;
+	  line-height: 14px;
+	}
+  }
+  
+  p {
+	font-family: 'Manrope Light';
+	font-size: 18px;
+	line-height: 30px;
+	// margin-top: 1em;
+	// margin-bottom: 1.5em;
+	color: #f1f1f1;
+  }
+  @media screen and (max-width: 767px){
+	  p{
+		  font-size: 16px;
+		  
+	  }
+  }
+
+  strong {
+	font-weight: 700;
+  }
+  
+  em {
+	font-style: italic;
+  }
+  
+  a {
+	color: #FFFFFF;
+	-webkit-transition: 0.15s all linear;
+	transition: 0.15s all linear;
+  }
+  
+  a:hover {
+	color: #FFD694;
+	text-decoration: none;
+  }
+  
+  a.disabled {
+	color: #FFB63D;
+	pointer-events: none;
+  }
+  
+  ul, ol {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	padding-left: 1.1em;
+  }
+  
+  li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+  }
+  

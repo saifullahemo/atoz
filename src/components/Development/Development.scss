@@ -1,0 +1,58 @@
+.development{
+    background: #fafdff;
+
+    article{
+        p{
+            font-size: 17px;
+        }
+    }
+    .discover{
+        p{
+            font-size: 14px;
+        }
+    }
+
+    h3{
+        color: #000;
+    }
+    h5{
+        color: #2567dc;
+    }
+    img{
+        width: 12%;
+        height: auto;
+    }
+    p{
+        font-size: 14px;
+        color: #4b4b4b;
+        line-height: 24px;
+    }
+    .card{
+        background-color: #F7FCFF;
+    }
+
+    .discover:hover{
+        background: linear-gradient(#ff787c, #ff787c);
+        transition: .6s all ease-in-out;
+        cursor: pointer;
+        p{
+            color: #fff;
+            transition:  all ease-in-out;
+        }
+        h5{
+            color: #fff;
+        }
+    }
+    .devimg{
+        .dev{
+            img{
+
+                
+                // background-image: url(../../assets/971.jpg);
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+            }   
+        }
+    }
+}
